@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  height: auto;
+  overflow: hidden;
+  overflow-y: overlay;
+  scrollbar-width: thin;
+  scrollbar-color: #cccccc #626262;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #626262;
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #cccccc;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
